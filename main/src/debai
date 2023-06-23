@@ -1,0 +1,44 @@
+viết 1 ứng dụng quản lý sản phẩm có các model:
+
+Product:
+ id
+ name
+ price
+ quantity
+
+ color
+ category
+
+Color:
+ idcolor
+ colorName
+
+Brand:
+ id
+ brandName
+
+category:
+ id
+ categoryname
+
+menu gồm có:
+ 1 quản lý sản phẩm (vào quản lý sẽ hiển thị all sản phẩm)
+  1.1 thêm
+  1.2 sửa
+  1.3 xóa sp
+  1.4 tìm kiếm theo
+   1.4.1 màu
+   1.4.2 hãng
+   1.4.3 loại sản phẩm
+ 2 quản lý màu (khi vào menu này mặc định sẽ hiển thị tất cả các màu kèm theo số lượng sản phẩm có màu này)
+  2.1 thêm
+  2.2 sửa
+  2.3 xóa
+ 3 quản lý hãng (khi vào menu này mặc định sẽ hiển thị các hãng kèm theo số lượng sản phẩm thuộc hãng đó)
+  3.1 thêm
+  3.2 sửa
+  3.3 xóa
+ 4 quản lý loại sản phẩm (khi vào menu này sẽ mặc định hiển thị các loại sản phẩm kèm theo số lượng sản phẩm thuộc loại đó)
+  4.1 thêm
+  4.2 sửa
+  4.3 xóa
